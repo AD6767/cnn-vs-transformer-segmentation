@@ -1,0 +1,29 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Checkpoints & large artifacts
+checkpoints/
+*.pth
+
+# Dataset (usually not tracked in git)
+data/
+
+# Visualizations / outputs
+viz_*/
+viz_deeplab/
+runs/
+logs/
+*.log
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
